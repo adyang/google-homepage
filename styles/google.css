@@ -100,11 +100,18 @@ ul {
 
 #footer li a {
 	display: block;
-	text-align:center;
-	padding: 14px 16px;
+	text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 	text-decoration: none;
+	font-family: arial,sans-serif;
+	color: #666;
+	font-size: small;
+	padding-left: 27px;
 }
 
 #footer .right {
 	float: right;
+	padding-left: 0px;
+	padding-right: 14px;
 }
