@@ -7,11 +7,17 @@ ul {
 #nav {
 	position: absolute;
 	right: 0px;
-	margin-right: 30px;
 }
 
 #nav li {
 	display: inline;
+	padding-right: 15px;
+}
+
+#nav .textlink {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #222;
 }
 
 #options {
@@ -22,10 +28,21 @@ ul {
 	height: 30px;
 	opacity: 0.55;
 	display: inline-block;
+	position: relative;
+	top: 10px;
 }
 
 #signin {
 	display: inline;
+	border: 1px solid #4285F4;
+	font-weight: bold;
+	background-color: #4387FD;
+	line-height: 28px;
+	padding: 0px 12px;
+	border-radius: 2px;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #fff;
 }
 
 #search {
